@@ -14,5 +14,5 @@
 4.  Grant privileges.
 
     ```sql
-        GRANT  ALL PRIVILEGES on sakila.* to username
+        GRANT ALL PRIVILEGES on sakila.* to username;
     ```

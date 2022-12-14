@@ -12,10 +12,13 @@
 
 ## Running the Docker DB (For Docker Newcomers and the Forgetful)
 
+* Rebuild the container if needed: `docker-compose up --build`
+* Remove the container if needed: `docker-compose down`
+
 1.  from the root directory: `docker-compose up --detach`
     (detach runs the command in the background).
 
-2.  from the root directory: `docker-compose down` to stop the container. 
+2.  from the root directory: `docker-compose stop` to stop the container. 
 
 *   `docker ps`: view running docker containers
 *   `docker stop <container name>`: stop any running containers

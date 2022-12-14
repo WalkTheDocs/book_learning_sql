@@ -1,11 +1,8 @@
 services:
   db:
-    image: mysql
-    environment:
-      MYSQL_DATABASE: practice
-      MYSQL_USER: username
-      MYSQL_PASSWORD: password
-      MYSQL_ROOT_PASSWORD: root_password
+    build:
+      context: .
+      dockerfile: db.dockerfile
     ports:
       - "3306:3306"
     volumes:

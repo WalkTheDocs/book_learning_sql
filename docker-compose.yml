@@ -1,0 +1,16 @@
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: practice
+      MYSQL_USER: username
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql-practice
+
+volumes:
+  db-data:
+    driver: local

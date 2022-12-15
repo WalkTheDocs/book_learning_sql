@@ -9,6 +9,7 @@
 ## Further Reading
 
 * [SQL and Relational Theory: How to Write Accurate SQL Code](https://www.amazon.com/SQL-Relational-Theory-Write-Accurate-ebook/dp/B017S0YPOG/ref=sr_1_1?crid=T31O9RXOCO77&keywords=sql+and+relational+theory&qid=1671028113&s=books&sprefix=sql+and+rel%2Cstripbooks-intl-ship%2C713&sr=1-1)
+* [High Performace MySQL: Proven Strategies for Operating at Scale](https://www.amazon.com/High-Performance-MySQL-Strategies-Operating-dp-1492080519/dp/1492080519/ref=dp_ob_title_bk)
 
 ## Running the Docker DB (For Docker Newcomers and the Forgetful)
 

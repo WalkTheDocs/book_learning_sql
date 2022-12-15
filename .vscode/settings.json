@@ -4,6 +4,7 @@
         "Maxlen",
         "multibyte",
         "sakila",
+        "subquery",
         "varchar"
     ]
 }
